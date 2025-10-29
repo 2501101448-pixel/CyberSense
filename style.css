@@ -16,6 +16,7 @@ body {
   background-color: #fafafa;
   line-height: 1.4;
   margin: 0 auto;
+  cursor: default;
 }
 /* Header container */
 .site-header .container{
