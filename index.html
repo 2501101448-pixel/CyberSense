@@ -3,24 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CyberSense</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <title>NetAware</title>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="container">
-        <a href="#" class="logo">CyberSense</a>
+        <a id="home" class="logo">NetAware</a>
         <nav class="main-nav">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#">Tips</a></li>
             <li><a href="#">Awareness</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -29,7 +26,7 @@
     <section class="hero">
       <div class="container">
         <h1>
-          CyberSense is your Guide to becoming a Smarter and Safer
+          NetAware is your Guide to becoming a Smarter and Safer
           <span>Digital Citizen</span>
         </h1>
         <p>Think Smart. Stay Safe Online.</p>
@@ -66,29 +63,59 @@
           </div>
         </div>
 
-        <div class="about">
-          <div class="about-page">
-            <h2>About</h2>
-            <h4>Mission</h4>
-            <p>
-              To promote cyber awareness and empower users with knowlegde to
-              stay safe online
-            </p>
-            <h4>Vission</h4>
-            <p>A world of responsible, informed, and cybersmart individuals.</p>
-            <h4>Why CyberSense Matters:</h4>
-            <p>
-              Discuss digital threat and the importance of online
-              responsibility.
-            </p>
-          </div>
-        </div>
       </section>
     </main>
 
+    <section class="about" id="about">
+  <div class="about-container">
+    <h2>About NetAware</h2>
+    <div class="about-content">
+      <div class="about-item">
+        <h4>Mission</h4>
+        <p>
+          To promote cyber awareness and empower users with knowledge to stay safe online.
+        </p>
+      </div>
+      <div class="about-item">
+        <h4>Vision</h4>
+        <p>
+          A world of responsible, informed, and cybersmart individuals.
+        </p>
+      </div>
+      <div class="about-item">
+        <h4>Why NetAware Matters</h4>
+        <p>
+          Discuss digital threats and highlight the importance of online responsibility.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <div class="contact-content">
+      <p>If you have questions, feedback, or collaboration ideas, feel free to reach out to us.</p>
+      <div class="contact-info">
+        <p><strong>Email:</strong> @gmail</p>
+        <p><strong>Phone:</strong> 0909aygtouh</p>
+        <p><strong>Address:</strong> Malaybalay city , Philippines</p>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
     <footer class="site-footer">
       <div class="container">
-        <p>© CyberSense 2025. Designed to make you smarter online.</p>
+        <p>© NetAware 2025. Designed to make you smarter online.</p>
       </div>
     </footer>
   </body>
